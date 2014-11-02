@@ -1,0 +1,30 @@
+{
+  "name": "skipper-proxied-fs",
+  "version": "0.0.1",
+  "description": "Filesystem that caches files from remote systems. Built to create a private proxy-caching npm server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.1.2",
+    "coffee-script": "^1.8.0",
+    "concat-stream": "^1.4.6",
+    "connect": "^3.3.2",
+    "crypto": "0.0.3",
+    "fs-extra": "^0.12.0",
+    "gulp-mocha": "^1.1.1",
+    "http-errors": "^1.2.7",
+    "lodash": "^2.4.1",
+    "merge-defaults": "^0.2.1",
+    "mime": "^1.2.11",
+    "mocha-cakes": "^0.9.0",
+    "request": "^2.47.0",
+    "routification": "0.0.1",
+    "skipper": "^0.5.3",
+    "stream": "0.0.1",
+    "temporary": "0.0.8"
+  }
+}
