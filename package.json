@@ -4,10 +4,10 @@
   "description": "Filesystem that caches files from remote systems. Built to create a private proxy-caching npm server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Zenobius Jiricek <airtonix@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "assert": "^1.1.2",
     "coffee-script": "^1.8.0",
